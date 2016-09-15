@@ -1,0 +1,2 @@
+java.time.ZonedDateTime dateTime	= java.time.ZonedDateTime.now(java.time.ZoneId.of("Asia/Tokyo"));
+System.out.println(dateTime.toString());

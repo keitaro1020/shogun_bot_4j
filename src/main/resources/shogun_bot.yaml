@@ -1,0 +1,26 @@
+## ネットワーク設定
+"port": 8080
+
+## データベース設定
+"database.uri": "jdbc:h2:./db/h2/shogun_bot"
+"database.id": "shogun_bot"
+"database.password": "shogun_bot"
+
+## KVSの設定
+"kvs.uri": "./db/mapdb/shogun_bot"
+"kvs.name": "shogun_bot"
+
+# Slackの設定
+## Slack設定(Slack Real Time Messaging API)
+"slack.api.token": ""
+
+## アイコン設定
+"icon.basic": ":grinning:"
+"icon.happy": ":smiley:"
+"icon.angry": ":rage4:"
+"icon.sad": ":cry:"
+"icon.shogun": ":shogun: "
+"icon.other":
+ - ":full_moon_with_face:"
+ - ":goberserk:"
+ - ":heart_eyes_cat:"
